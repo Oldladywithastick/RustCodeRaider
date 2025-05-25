@@ -150,7 +150,7 @@ int main() {
         input_prompt.setOrigin(promptBounds.left + promptBounds.width / 2.f, promptBounds.top + promptBounds.height / 2.f);
         input_prompt.setPosition(window.getSize().x / 2.f, 3 * window.getSize().y / 4.f);
         //draw window
-        window.clear(sf::Color(52, 73, 94));
+        window.clear(sf::Color(16, 24, 32));
         window.draw(text);
         window.draw(progress_text);
         window.draw(input_prompt);
